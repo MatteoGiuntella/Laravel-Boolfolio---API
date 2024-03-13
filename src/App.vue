@@ -18,11 +18,11 @@ export default {
     methods: {
 
     },
-    mounted(){
-        // axios.get().then((response) =>{
-        //     console.log(response)
-        // });
-    }
+    // mounted(){
+    //      axios.get().then((response) =>{
+    //          console.log(response)
+    //     });
+    // }
 }
 </script>
 
