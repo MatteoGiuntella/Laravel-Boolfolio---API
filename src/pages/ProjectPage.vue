@@ -19,7 +19,7 @@ export default {
 <template>
 
   <div class="container">
-    <h1 class=" text-center ">my project</h1>
+    <h1 class=" text-center ">my project page</h1>
     <div>
       <div class="row">
         <div class="col-12 mb-3 mb-sm-0 d-flex px-1 justify-content-around  ">
@@ -35,6 +35,7 @@ export default {
                   {{ technology.title }}
                 </li>
               </ul></span>
+              <router-link :to="{name:'single_project', params: {slug : project.slug}}" >Read Project</router-link>
             </div>
               
               

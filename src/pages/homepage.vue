@@ -20,3 +20,4 @@ export default {
 @use '../assets/scss/home.scss'
 
 </style>
+./Homepage.vue/index.js
