@@ -5,7 +5,7 @@ import {store} from "../store.js";
 export default {
   data() {
     return {
-      projects: [],
+      projects: null,
       store,
     };
   },
@@ -18,7 +18,8 @@ export default {
       try {
         axios.get("/project.json").then((response) => {
           console.log(response);
-          this.projects = response.data;
+          this.projects = response.data.projects;
+          console.log(this.projects);
         });
         // const response = await fetch("../assets/project.json");
         // const projects = response.json();
@@ -33,6 +34,10 @@ export default {
   created() {
     this.GetProjects();
   },
+  mounted()
+  {
+   
+  }
 };
 </script>
 
@@ -42,8 +47,9 @@ export default {
     <div>
       <div class="row">
         <div class="col-12 mb-3 mb-sm-0 d-flex px-1 justify-content-around">
-          <div class="card my-3" v-for="project in projects" :key="project.id">
+          <div class="card my-3" v-for="(project,i) in projects" :key="i">
             <div class="card-body">
+              {{ console.log(project) }}
               <h3 class="card-title">{{ project.Nome }}</h3>
               <p class="card-text">Created At: {{ project.Img }}</p>
               <p class="card-text">Type: {{ project.Descrizione }}</p>
