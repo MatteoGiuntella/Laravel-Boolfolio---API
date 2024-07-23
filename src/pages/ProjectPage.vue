@@ -7,12 +7,6 @@ export default {
     };
   },
   methods: {},
-  created() {
-    axios.get("http://127.0.0.1:8000/api/projects").then((res) => {
-      this.projects = res.data.results.data;
-      console.log(this.projects)
-    });
-  },
 };
 </script>
 
