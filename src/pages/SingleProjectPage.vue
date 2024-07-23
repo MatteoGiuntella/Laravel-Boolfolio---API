@@ -1,12 +1,20 @@
 <script>
-import axios from "axios";
+
+import {store} from "../store.js";
 export default {
   data() {
     return {
-      project: null,
+      store,
+      project : store.project,
     };
   },
-  methods: {},
+  methods:
+   {},
+
+  mounted()
+  {
+    console.log(store.project);
+  }
  
 };
 </script>
@@ -20,23 +28,13 @@ export default {
         <div class="col-12 mb-3 mb-sm-0 d-flex px-1 justify-content-around">
           <div class="card my-3">
             <div class="card-body">
-              <h3 class="card-title">{{ project.title }}</h3>
-              <p class="card-text">Created At: {{ project.date }}</p>
-              <p class="card-text">Type: {{ project.type.title }}</p>
-              <p class="card-text">Description: {{ project.description }}</p>
+              <h3 class="card-title">{{ project.Nome }}</h3>
+              <p class="card-text">Created At: {{ project.Img }}</p>
+              <p class="card-text">Type: {{ project.Tecnologie }}</p>
+              <p class="card-text">Description: {{ project.Descrizione }}</p>
               <div class="card-text">
                 Technologies:
-                <span>
-                  <ul>
-                    <li
-                      class=""
-                      v-for="technology in project.technologies"
-                      :key="i"
-                    >
-                      {{ technology.title }}
-                    </li>
-                  </ul>
-                </span>
+               S
               </div>
             </div>
           </div>

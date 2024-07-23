@@ -4,6 +4,7 @@ import AppMain from './components/AppMain.vue';
 // import AppFooter from './components/AppFooter.vue';
 import axios from 'axios';
 import {store} from './store.js'
+import { errorMessages } from 'vue/compiler-sfc';
 export default {
     data() {
         return {
@@ -14,10 +15,11 @@ export default {
         AppHeader,
         AppMain,
         // AppFooter
-    },  
-    methods: {
-
     },
+    methods: {
+     
+        
+    }
     // mounted(){
     //      axios.get().then((response) =>{
     //          console.log(response)
@@ -27,11 +29,11 @@ export default {
 </script>
 
 <template>
-    <AppHeader />
+  <AppHeader />
 
-    <AppMain />
+  <AppMain />
 
-    <!-- <AppFooter /> -->
+  <!-- <AppFooter /> -->
 </template>
 
 <style lang="scss">
