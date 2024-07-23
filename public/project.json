@@ -1,22 +1,16 @@
 {
-    "projects":
-    [
+    "projects": [
         {
-        
-            "Nome": "Apple",
-            "Img": "Large",
-            "Descrizione": "Red",
-            "Tecnologie":"",
-            "Link":"https://vue-boolzapp-iota.vercel.app/"
+            "Nome": "boolzapp",
+            "Descrizione": "",
+            "Tecnologie": "Javascript, Vue.js, Scss, Bootstrap",
+            "Link": "https://vue-boolzapp-iota.vercel.app/"
         },
         {
-        
-            "Nome": "Apple",
-            "Img": "Large",
-            "Descrizione": "Red",
-            "Tecnologie":"",
-            "Link":"https://vue-todolist-gilt.vercel.app/"
+            "Nome": "TodoList",
+            "Descrizione": "",
+            "Tecnologie": "Javascript, Vue.js",
+            "Link": "https://vue-todolist-gilt.vercel.app/"
         }
     ]
-    
 }
