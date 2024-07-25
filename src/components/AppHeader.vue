@@ -53,12 +53,13 @@ export default {
 
 header {
     .sidebar {
+        box-shadow: 5px 4px 8px rgba(220, 222, 224, 0.5);
         position: fixed;
         top: 0;
         left: 0;
         height: 100vh;
         width: 80px;
-        background-color: #f8f9fa;
+        background-color: #DCDEE0;
         transition: width 0.3s ease;
         overflow: hidden;
 
@@ -71,7 +72,7 @@ header {
             justify-content: center;
             align-items: center;
             height: 80px;
-            background-color: #343a40;
+            background-color: black;
             .logo-img {
                 width: 50px;
                 height: 50px;
@@ -95,7 +96,7 @@ header {
                     padding: 0;
                     text-align: center;
                     font-size: 18px;
-                    color: #495057;
+                    color: black;
                     transition: background-color 0.3s ease;
 
                     .icon {
@@ -109,8 +110,8 @@ header {
                     }
 
                     &:hover {
-                        background-color: #495057;
-                        color: #fff;
+                        background-color: black;
+                        color: #DCDEE0;
 
                         .icon {
                             margin-right: 15px;
