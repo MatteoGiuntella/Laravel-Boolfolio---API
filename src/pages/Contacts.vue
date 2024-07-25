@@ -17,6 +17,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/scss/home.scss'
+@use '../assets/scss/home.scss';
 
 </style>

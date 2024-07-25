@@ -109,7 +109,7 @@ header {
                     }
 
                     &:hover {
-                        background-color: #007bff;
+                        background-color: #495057;
                         color: #fff;
 
                         .icon {
