@@ -13,6 +13,7 @@ export default {
 </script>
 
 <template>
+    <h1>Aboutme</h1>
    
 </template>
 
@@ -20,4 +21,3 @@ export default {
 @use '../assets/scss/home.scss'
 
 </style>
-// ./Homepage.vue/index.js

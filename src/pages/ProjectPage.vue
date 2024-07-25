@@ -21,11 +21,6 @@ export default {
           this.projects = response.data.projects;
           console.log(this.projects);
         });
-        // const response = await fetch("../assets/project.json");
-        // const projects = response.json();
-        // const myProject = JSON.stringify(projects);
-        // console.log(myProject);
-        // return myProject;
       } catch (error) {
         console.log(error);
       }

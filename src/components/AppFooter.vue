@@ -17,9 +17,9 @@ export default {
 </script>
 
 <template>
-<h1 class=" text-center ">App Main</h1>
+<h1 class=" text-center ">Footer</h1>
  
-  <router-view></router-view>
+
 </template>
 
 <style lang="scss" scoped></style>

@@ -6,6 +6,10 @@ import ProjectPage from './pages/ProjectPage.vue'
 
 import SingleProjectPage from './pages/SingleProjectPage.vue'
 
+import Aboutme from './pages/Aboutme.vue'
+
+import Contacts from './pages/Contacts.vue'
+
 
 const router = createRouter({
     history: createWebHistory(),
@@ -21,9 +25,19 @@ const router = createRouter({
             component: ProjectPage
         },
         {
-            path:'/project/show',
+            path:'/project/Show',
             name:'single_project',
             component: SingleProjectPage
+        },
+        {
+            path:'/project/About_me',
+            name:'About_me',
+            component: Aboutme
+        },
+        {
+            path:'/project/Contacts',
+            name:'Contacts',
+            component: Contacts
         },
     ]
 });

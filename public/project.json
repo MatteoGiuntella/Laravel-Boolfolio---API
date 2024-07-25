@@ -1,15 +1,15 @@
 {
     "projects": [
         {
-            "Nome": "boolzapp",
+            "Nome": "Boolzapp",
             "Descrizione": "",
             "Tecnologie": "Javascript, Vue.js, Scss, Bootstrap",
             "Link": "https://vue-boolzapp-iota.vercel.app/"
         },
         {
             "Nome": "TodoList",
-            "Descrizione": "",
-            "Tecnologie": "Javascript, Vue.js",
+            "Descrizione": "Questo progetto è un'applicazione semplice ma efficace che dimostra come utilizzare Vue.js per gestire lo stato di un'applicazione e Bootstrap per stilizzare e gestire interazioni complesse come le modali. L'aggiunta di un logo interattivo con animazioni CSS migliora l'esperienza utente, mentre l'inclusione di una modale di contatto offre un modo professionale per fornire informazioni di contatto direttamente attraverso l'applicazione.",
+            "Tecnologie": "Javascript, Vue.js, Bootostrap",
             "Link": "https://vue-todolist-gilt.vercel.app/"
         }
     ]

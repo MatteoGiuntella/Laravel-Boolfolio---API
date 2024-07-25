@@ -33,8 +33,7 @@ export default {
               <p class="card-text">Type: {{ project.Tecnologie }}</p>
               <p class="card-text">Description: {{ project.Descrizione }}</p>
               <div class="card-text">
-                Technologies:
-               S
+                Link: <a target="_blank" :href=" project.Link ">Visualizza</a>
               </div>
             </div>
           </div>
