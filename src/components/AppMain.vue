@@ -16,9 +16,7 @@ export default {
 };
 </script>
 
-<template>
-<h1 class=" text-center ">App Main</h1>
- 
+<template> 
   <router-view></router-view>
 </template>
 
