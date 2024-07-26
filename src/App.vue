@@ -38,5 +38,7 @@ export default {
 <style lang="scss">
 @use "assets/scss/main" as *;
 @import "assets/scss/partials/reset";
-
+*{ font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  }
 </style>

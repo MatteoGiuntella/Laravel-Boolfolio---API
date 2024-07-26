@@ -18,7 +18,7 @@ export default {
     data-aos-offset="0"
   >
     <div class="container m-5">
-      <div class="row justify-content-center mt-5 border-white border-3">
+      <div class="row row- justify-content-center mt-5 border-white border-3">
         <div class="col-4">
           <div class="container-img ms-5">
             <img class="img-" src="/public/img/logo.png" alt="" />
@@ -37,14 +37,14 @@ export default {
             </p>
           </div>
         </div>
-      </div>
+      </div>    
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
 @use "../assets/scss/home.scss";
-.row {
+.row- {
   box-shadow: 0 4px 8px rgba(220, 222, 224, 0.5);
   border-radius: 20px;
   padding: 50px;
@@ -71,42 +71,7 @@ export default {
     margin-top: 10px;
     font-style: oblique;
   }
-  .matrix-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: black;
-  overflow: hidden;
-  z-index: 0; /* Ensure matrix effect is behind content */
 }
 
-.matrix-background::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: repeating-linear-gradient(
-    90deg,
-    rgba(0, 255, 0, 0.5),
-    rgba(0, 255, 0, 0.5) 1px,
-    transparent 1px,
-    transparent 2px
-  );
-  animation: matrix-animation 1s linear infinite;
-}
-
-@keyframes matrix-animation {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(100%);
-  }
-}
-}
 
 </style>
