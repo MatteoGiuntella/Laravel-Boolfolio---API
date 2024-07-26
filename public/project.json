@@ -2,14 +2,14 @@
     "projects": [
         {
             "Nome": "Boolzapp",
-            "Descrizione": "",
+            "Descrizione": "I have developed a replica of the WhatsApp layout using Vue.js, where I implemented reactive messaging that allows for automated responses to sent messages, along with an intuitive search field that enables users to find other users within the chat.",
             "Tecnologie": "Javascript, Vue.js(Vite), Scss, Bootstrap",
             "Creato": "8-01-2024",
             "Link": "https://vue-boolzapp-iota.vercel.app/"
         },
         {
             "Nome": "TodoList",
-            "Descrizione": "Questo progetto è un'applicazione semplice ma efficace che dimostra come utilizzare Vue.js per gestire lo stato di un'applicazione e Bootstrap per stilizzare e gestire interazioni complesse come le modali. L'aggiunta di un logo interattivo con animazioni CSS migliora l'esperienza utente, mentre l'inclusione di una modale di contatto offre un modo professionale per fornire informazioni di contatto direttamente attraverso l'applicazione.",
+            "Descrizione": "This project is a simple yet effective application that demonstrates how to use Vue.js to manage application state and Bootstrap to style and handle complex interactions like modals. The addition of an interactive logo with CSS animations enhances the user experience, while the inclusion of a contact modal provides a professional way to offer contact information directly within the application.",
             "Tecnologie": "Javascript, Vue.js(Cdn), Bootostrap",
             "Creato": "12-12-2023",
             "Link": "https://vue-todolist-gilt.vercel.app/"
